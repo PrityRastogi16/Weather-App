@@ -1,0 +1,33 @@
+.weatherBg{
+  background: url("https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+
+}
+.heading{
+  color: rgb(10, 13, 13);
+  font-size: 48px;
+}
+.resultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+.weatherIcon{
+  margin-top: 1.5rem;
+  width: 90px;
+  height: 90px;
+}
+.city{
+  font-size: 33px;
+
+}
+.temp{
+  font-size: 55px;
+  font-weight: 700;
+}
